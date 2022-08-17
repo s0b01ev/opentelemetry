@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor
+module github.com/s0b01ev/opentelemetry/groupbytraceprocessor
 
 go 1.17
 
