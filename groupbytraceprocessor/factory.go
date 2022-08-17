@@ -24,9 +24,13 @@ import (
 	"go.opentelemetry.io/collector/config"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/common"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/logs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/traces"
+//	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/common"
+//	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/logs"
+//	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/traces"
+
+	"github.com/s0b01ev/opentelemetry/groupbytraceprocessor/internal/common"
+	"github.com/s0b01ev/opentelemetry/groupbytraceprocessor/internal/logs"
+	"github.com/s0b01ev/opentelemetry/groupbytraceprocessor/internal/traces"
 )
 
 const (

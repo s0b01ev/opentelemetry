@@ -23,7 +23,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/common"
+//	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/common"
+	"github.com/s0b01ev/opentelemetry/groupbytraceprocessor/internal/common"
 )
 
 func TestDefaultConfiguration(t *testing.T) {

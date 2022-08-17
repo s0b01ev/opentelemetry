@@ -29,7 +29,8 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/common"
+//	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/common"
+	"github.com/s0b01ev/opentelemetry/groupbytraceprocessor/internal/common"
 )
 
 // GroupByTraceProcessor is a processor that keeps logs in memory for a given duration, with the expectation
